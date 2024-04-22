@@ -1,0 +1,29 @@
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para las celdas de encabezado y datos */
+th, td {
+    border: 1px solid #ff0000;
+    padding: 10px; /* Aumenté el padding para que haya más espacio entre el texto y los bordes */
+    text-align: left;
+}
+
+/* Estilos para las celdas de encabezado */
+th {
+    background-color: #f2f2f2;
+    color: #ff0000; /* Cambié el color del texto a rojo */
+}
+
+/* Estilos para las filas impares (alternando colores) */
+tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Cambié el color de fondo de las filas impares */
+}
+
+/* Estilos para el título */
+h1 {
+    color: #ff0000; /* Cambié el color del título a rojo */
+}
